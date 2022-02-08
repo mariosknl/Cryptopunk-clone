@@ -11,8 +11,6 @@ const Main = ({ selectedPunk, punkListData }) => {
     setActivePunk(punkListData[selectedPunk]);
   }, [punkListData, selectedPunk]);
 
-  console.log(activePunk);
-
   return (
     <div className="main">
       <div className="mainContent">
